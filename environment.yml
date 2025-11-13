@@ -1,0 +1,26 @@
+name: reportgen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fastapi
+  - uvicorn
+  - pydantic
+  - pydantic-settings
+  - python-multipart
+  - jinja2
+  - reportlab
+  - matplotlib
+  - pandas
+  - numpy
+  - sqlalchemy
+  - psycopg2
+  - httpx
+  - networkx
+  - pip
+  - pip:
+      - langchain
+      - langchain-community
+      - langgraph
+      - duckduckgo-search
+      - langchain-ollama
